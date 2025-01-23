@@ -129,7 +129,7 @@ class AVL_tree:
                     printSpaces(whiteSpaces)
                 print(x,end="")
                 printSpaces(1+2*whiteSpaces)
-            print()
+            print("\n")
 
     def left_rotate(self, z):
         y = z.right
